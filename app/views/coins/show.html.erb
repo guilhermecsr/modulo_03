@@ -9,7 +9,10 @@
   <strong>Acronym:</strong>
   <%= @coin.acronym %>
 </p>
-
+<p>
+  <strong>Image:</strong>
+  <%= image_tag @coin.url_image, size: "25x25" %>
+</p>
 <p>
   <strong>Url image:</strong>
   <%= @coin.url_image %>
