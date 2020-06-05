@@ -21,7 +21,7 @@
       <tr>
         <td><%= coin.description %></td>
         <td><%= coin.acronym %></td>
-        <td><%= image_tag coin.url_image, width: 25, height: 25 %></td>
+        <td><%#= image_tag coin.url_image, width: 25, height: 25 %></td>
         <td><%= link_to 'Mostrar', coin %></td>
         <td><%= link_to 'Editar', edit_coin_path(coin) %></td>
         <td><%= link_to 'Deletar', coin, method: :delete, data: { confirm: 'Esta certo disso?' } %></td>
@@ -32,4 +32,4 @@
 
 <br>
 
-<%= link_to 'New Coin', new_coin_path %>
+<%= link_to 'Nova Moeda', new_coin_path %>
