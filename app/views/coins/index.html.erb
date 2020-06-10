@@ -9,9 +9,9 @@
 <table>
   <thead>
     <tr>
-      <th>Descricao</th>
-      <th>Sigla</th>
-      <th>Image</th>
+      <th><%= @coins.human_attribute_name(:description) %></th>
+      <th><%= @coins.human_attribute_name(:acronym) %></th>
+      <th><%= @coins.human_attribute_name(:image) %></th>
       <th colspan="3"></th>
     </tr>
   </thead>
