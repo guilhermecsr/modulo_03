@@ -1,0 +1,11 @@
+pt-BR:
+  hello: "Ola Mundo"
+  links:
+    edit: "Editar"
+    show: "Mostrar"
+    delete: "Deletar"
+  text:
+    are_you_sure: "Tem certeza?"
+    coin: "Moeda"
+    coins: "Moedas"
+    mining_types: "Tipos de Mineração"

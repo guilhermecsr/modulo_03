@@ -3,7 +3,7 @@ module ApplicationHelper
     data_us.strftime("%d/%m/%Y")
   end
 
-  def locale(locale)
+  def locale
     I18n.locale == :en ? "Estados Unidos" : "Português do Brasil"
   end
 
